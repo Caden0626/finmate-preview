@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 256 256" fill="none" role="img" color="#416aee"><title>Aera · 月光猫头鹰</title><defs><linearGradient id="tile" x1="0" y1="0" x2="256" y2="256" gradientUnits="userSpaceOnUse"><stop stop-color="#3150e2"/><stop offset="1" stop-color="#4c78ef"/></linearGradient><radialGradient id="light"><stop stop-color="#a5c3ff" stop-opacity=".22"/><stop offset="1" stop-color="#a5c3ff" stop-opacity="0"/></radialGradient></defs><rect width="256" height="256" fill="url(#tile)"/><ellipse cx="214" cy="28" rx="188" ry="170" fill="url(#light)"/><defs><linearGradient id="silver" x1="50" y1="37" x2="199" y2="219" gradientUnits="userSpaceOnUse"><stop stop-color="#fff"/><stop offset=".3" stop-color="#e5ebf5"/><stop offset=".55" stop-color="#f8fbff"/><stop offset=".8" stop-color="#a1b1cb"/><stop offset="1" stop-color="#dde8f8"/></linearGradient><linearGradient id="pearl" x1="80" y1="72" x2="169" y2="205" gradientUnits="userSpaceOnUse"><stop stop-color="#fff"/><stop offset=".65" stop-color="#f4f7fd"/><stop offset="1" stop-color="#d3e0f1"/></linearGradient><linearGradient id="blue" x1="81" y1="79" x2="175" y2="177" gradientUnits="userSpaceOnUse"><stop stop-color="#769cff"/><stop offset=".5" stop-color="#416aee"/><stop offset="1" stop-color="#2544ad"/></linearGradient><filter id="shadow" x="-30%" y="-30%" width="160%" height="170%" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="5" stdDeviation="4" flood-color="#10296a" flood-opacity=".15"/></filter></defs>
+    <g filter="url(#shadow)">
+      <path d="M50 50Q71 51 87 68Q128 52 169 68Q185 51 206 50L198 96Q218 144 190 180Q166 209 128 217Q90 209 66 180Q38 144 58 96Z" fill="url(#silver)" stroke="#f7faff" stroke-opacity=".65" stroke-width="1"/>
+      <path d="M67 111Q63 87 92 87Q111 86 128 101Q145 86 164 87Q193 87 189 111L186 145Q174 175 128 197Q82 175 70 145Z" fill="url(#pearl)"/>
+      <circle cx="97" cy="123" r="26" fill="url(#blue)"/>
+      <circle cx="159" cy="123" r="26" fill="url(#blue)"/>
+      <circle cx="97" cy="123" r="15" fill="url(#pearl)"/>
+      <circle cx="159" cy="123" r="15" fill="url(#pearl)"/>
+      <circle cx="99" cy="124" r="8" fill="#22345a"/>
+      <circle cx="157" cy="124" r="8" fill="#22345a"/>
+      <circle cx="97" cy="121" r="2.5" fill="#fff"/>
+      <circle cx="155" cy="121" r="2.5" fill="#fff"/>
+      <path d="M119 153Q128 148 137 153L128 168Z" fill="url(#blue)"/>
+      <path d="m110 181 18 9 18-9" fill="none" stroke="#bdcde4" stroke-width="2" stroke-linecap="round"/>
+      <path d="M55 52Q71 56 83 69M91 65Q128 54 165 65M67 170Q92 202 126 211" fill="none" stroke="#fff" stroke-opacity=".65" stroke-width="1.4" stroke-linecap="round"/>
+    </g></svg>

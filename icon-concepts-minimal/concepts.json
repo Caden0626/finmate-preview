@@ -1,0 +1,24 @@
+[
+  {
+    "id": "soft-a",
+    "name": "圆体 a",
+    "en": "SOFT A",
+    "type": "字母标识",
+    "description": "圆润的小写 a，用一个留白圆心建立品牌记忆。",
+    "heading": [
+      "圆体 a，",
+      "简单地记住 Aera。"
+    ]
+  },
+  {
+    "id": "whale",
+    "name": "小鲸",
+    "en": "LITTLE WHALE",
+    "type": "一个轮廓，一个眼睛",
+    "description": "一颗白色圆眼，配上厚实的鲸身和小尾巴。",
+    "heading": [
+      "小鲸，",
+      "安静陪你每一天。"
+    ]
+  }
+]

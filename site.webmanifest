@@ -1,0 +1,24 @@
+{
+  "name": "FinMate · 银行 AI 智能体",
+  "short_name": "FinMate",
+  "lang": "zh-CN",
+  "start_url": "/finmate-preview/",
+  "display": "standalone",
+  "background_color": "#f8f7fa",
+  "theme_color": "#f8f7fa",
+  "icons": [
+    {
+      "src": "/finmate-preview/brand/app-icon.svg?v=fold-f-91c89b22",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/finmate-preview/brand/app-icon.png?v=fold-f-91c89b22",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "scope": "/finmate-preview/"
+}

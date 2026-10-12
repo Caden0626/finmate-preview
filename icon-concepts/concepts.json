@@ -1,0 +1,34 @@
+[
+  {
+    "id": "orbit",
+    "name": "轨道 A",
+    "en": "ORBIT",
+    "type": "品牌标识",
+    "description": "银色折叠 A 与一条轨道，延续 Aera 的科技感，形态更凝练。",
+    "keywords": "精密 · 克制 · 科技"
+  },
+  {
+    "id": "fox",
+    "name": "银狐",
+    "en": "SILVER FOX",
+    "type": "推荐 · 智慧伙伴",
+    "description": "白瓷脸颊、银色尖耳与蓝色眼睛，聪明而温和的专属助手。",
+    "keywords": "聪明 · 轻盈 · 亲和"
+  },
+  {
+    "id": "owl",
+    "name": "月光猫头鹰",
+    "en": "MOON OWL",
+    "type": "理性守护者",
+    "description": "圆润的银色轮廓和双眼结构，呈现沉稳、专注的守护感。",
+    "keywords": "洞察 · 安心 · 专注"
+  },
+  {
+    "id": "whale",
+    "name": "浮光鲸",
+    "en": "LUMI WHALE",
+    "type": "从容陪伴者",
+    "description": "流线的白色鲸身与蓝色胸鳍，带来轻松、从容的金融陪伴。",
+    "keywords": "从容 · 自由 · 陪伴"
+  }
+]

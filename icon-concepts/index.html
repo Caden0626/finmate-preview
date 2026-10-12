@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="theme-color" content="#f5f7fc"/>
+  <title>Aera · 图标与伙伴设计</title>
+  <link rel="icon" href="./fox/app-icon.svg" type="image/svg+xml"/>
+  <link rel="stylesheet" href="./gallery.css"/>
+</head>
+<body>
+  <main>
+    <section class="design-board" aria-labelledby="board-title">
+      <header class="board-header">
+        <div><a class="wordmark" href="/" aria-label="返回 Aera">aera</a><p class="edition">ICON & COMPANION / 01</p></div>
+        <div class="board-intro"><p class="eyebrow">一个符号，一位伙伴。</p><h1 id="board-title">为 Aera，找到自己的面孔。</h1><p>冷白 · 钴蓝 · 银色。四个方向，同一种从容。</p></div>
+        <div class="surface-toggle" role="group" aria-label="App 图标背景"><button class="active" data-surface="blue" aria-pressed="true">钴蓝底</button><button data-surface="white" aria-pressed="false">冷白底</button></div>
+      </header>
+      <div class="concept-grid" id="concepts"></div>
+      <footer class="board-footer"><span>01 品牌标识 · 02 智慧伙伴 · 03 理性守护 · 04 从容陪伴</span><span>点击方案，查看界面中的效果 <span aria-hidden="true">↓</span></span></footer>
+    </section>
+
+    <section class="context-preview" id="context-preview" aria-labelledby="preview-title">
+      <div class="context-copy">
+        <p class="eyebrow">IN YOUR AERA</p>
+        <h2 id="preview-title">银狐，<br/>你的智慧伙伴。</h2>
+        <p id="preview-description"></p>
+        <div class="preview-tags"><span>App 图标</span><span>Agent 头像</span><span>导航图标</span></div>
+        <div class="preview-downloads"><a id="download-icon" download>下载 App 图标 PNG <span aria-hidden="true">↗</span></a><a id="download-mark" download>下载透明图形 SVG <span aria-hidden="true">↗</span></a><a id="download-glyph" download>下载简化图标 SVG <span aria-hidden="true">↗</span></a></div>
+        <p class="preview-note">此页用于比较方案；点击只更新这里的预览。</p>
+      </div>
+      <div class="preview-phone" aria-label="所选方案的 Agent 界面预览">
+        <div class="phone-status"><span>9:41</span><span aria-hidden="true">▂▃▅ &nbsp; ◔ &nbsp; ▰</span></div>
+        <div class="phone-toolbar"><img class="selected-mark" src="./fox/mark.svg" alt=""/><div><strong>Aera Agent</strong><small><i></i>你的金融助手</small></div><span class="toolbar-control" aria-hidden="true">+</span></div>
+        <div class="phone-welcome"><div class="phone-art"><span></span><img class="selected-mark" src="./fox/mark.svg" alt=""/></div><p class="phone-eyebrow">AERA INTELLIGENCE</p><h3>少一点操作，<br/><em>多一点生活。</em></h3><p>把日常金融，交给你的专属助手。</p></div>
+        <div class="phone-prompts"><div><span>↗</span><strong>轻松转账</strong><small>给林晓转 300 元</small></div><div><span>▥</span><strong>看懂消费</strong><small>分析一下我的消费</small></div></div>
+        <div class="phone-composer"><span>+</span><span>告诉 Aera，你想做什么</span><i>↑</i></div>
+        <div class="phone-nav" aria-hidden="true"></div><div class="phone-indicator"></div>
+      </div>
+      <div class="home-screen-sample"><p class="eyebrow">APP ICON</p><div class="selected-app-icon app-icon"><img class="selected-mark" src="./fox/mark.svg" alt=""/></div><span>Aera</span><p>同一个伙伴，<br/>从桌面陪你到对话。</p></div>
+    </section>
+  </main>
+  <script type="module" src="./gallery.js"></script>
+</body>
+</html>

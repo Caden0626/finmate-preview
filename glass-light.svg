@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1200" viewBox="0 0 600 1200" fill="none">
+  <defs>
+    <linearGradient id="ribbon" x1="470" y1="90" x2="235" y2="820" gradientUnits="userSpaceOnUse"><stop stop-color="white" stop-opacity=".6"/><stop offset=".42" stop-color="white" stop-opacity=".03"/><stop offset="1" stop-color="white" stop-opacity=".4"/></linearGradient>
+    <linearGradient id="edge" x1="280" y1="180" x2="420" y2="900" gradientUnits="userSpaceOnUse"><stop stop-color="white" stop-opacity=".8"/><stop offset=".48" stop-color="white" stop-opacity=".1"/><stop offset="1" stop-color="white" stop-opacity=".55"/></linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="12"/></filter>
+  </defs>
+  <path d="M516-90C448 118 623 295 528 478C439 650 216 635 208 836C204 954 283 1083 202 1292" stroke="#6d788c" stroke-width="62" opacity=".045" filter="url(#soft)"/>
+  <path d="M501-90C433 118 608 295 513 478C424 650 201 635 193 836C189 954 268 1083 187 1292" stroke="url(#ribbon)" stroke-width="87"/>
+  <path d="M461-90C393 118 568 295 473 478C384 650 161 635 153 836C149 954 228 1083 147 1292" stroke="url(#edge)" stroke-width="1.5"/>
+  <path d="M-125 97C154 1 288 196 208 394C164 503-106 629-87 858" stroke="white" stroke-width="74" opacity=".14"/>
+  <path d="M-125 60C154-36 288 159 208 357C164 466-106 592-87 821" stroke="white" stroke-width="1" opacity=".5"/>
+  <ellipse cx="424" cy="1120" rx="230" ry="194" transform="rotate(-30 424 1120)" stroke="white" stroke-width="1.5" opacity=".2"/>
+</svg>

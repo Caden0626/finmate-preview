@@ -1,0 +1,47 @@
+[
+  {
+    "id": "fold-fm",
+    "number": "01",
+    "name": "折角 FM",
+    "en": "FOLD / FM",
+    "tone": "light",
+    "description": "F 的横笔与 M 的圆弧共享连接，保留圆润折角的质感。",
+    "detail": "左侧保留 F 的竖笔、横笔和折角，右侧接出小写 m 的双弧；共用连接处，形成一个完整的 FM 标识。"
+  },
+  {
+    "id": "fin-fm",
+    "number": "03",
+    "name": "伴航 FM",
+    "en": "FIN / FM",
+    "tone": "light",
+    "description": "鳍形 F 与倾斜双弧 M 相接，让字母成为向前的轮廓。",
+    "detail": "将 F 的上横笔拉成弧形鳍面，中间保留清晰的横笔；右侧小写 m 的双弧同向倾斜，延续原版的轻盈和动势。"
+  },
+  {
+    "id": "fold-f",
+    "number": "01",
+    "name": "折角 F",
+    "en": "FOLD",
+    "tone": "light",
+    "description": "用一个圆润的 F 建立识别，折角带出卡片的意象。",
+    "detail": "品牌首字母最直接。圆弧与折角平衡亲和感和精确感，适合成为主品牌。"
+  },
+  {
+    "id": "twin-m",
+    "number": "02",
+    "name": "双弧 M",
+    "en": "MATE",
+    "tone": "dark",
+    "description": "两道相接的圆弧组成 M，表达搭档与陪伴。",
+    "detail": "取 Mate 的首字母，用并肩的圆弧传达陪伴；反白图标在桌面上更醒目。"
+  },
+  {
+    "id": "fin",
+    "number": "03",
+    "name": "伴航",
+    "en": "FIN",
+    "tone": "light",
+    "description": "从 Fin 联想到鳍，让两片轮廓带出向前的动势。",
+    "detail": "用抽象的鳍与帆表达陪你前行，更偏生活品牌，也能发展为 Agent 的视觉形象。"
+  }
+]

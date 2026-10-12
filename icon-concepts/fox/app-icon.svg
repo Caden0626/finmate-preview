@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 256 256" fill="none" role="img" color="#416aee"><title>Aera · 银狐</title><defs><linearGradient id="tile" x1="0" y1="0" x2="256" y2="256" gradientUnits="userSpaceOnUse"><stop stop-color="#3150e2"/><stop offset="1" stop-color="#4c78ef"/></linearGradient><radialGradient id="light"><stop stop-color="#a5c3ff" stop-opacity=".22"/><stop offset="1" stop-color="#a5c3ff" stop-opacity="0"/></radialGradient></defs><rect width="256" height="256" fill="url(#tile)"/><ellipse cx="214" cy="28" rx="188" ry="170" fill="url(#light)"/><defs><linearGradient id="silver" x1="50" y1="37" x2="199" y2="219" gradientUnits="userSpaceOnUse"><stop stop-color="#fff"/><stop offset=".3" stop-color="#e5ebf5"/><stop offset=".55" stop-color="#f8fbff"/><stop offset=".8" stop-color="#a1b1cb"/><stop offset="1" stop-color="#dde8f8"/></linearGradient><linearGradient id="pearl" x1="80" y1="72" x2="169" y2="205" gradientUnits="userSpaceOnUse"><stop stop-color="#fff"/><stop offset=".65" stop-color="#f4f7fd"/><stop offset="1" stop-color="#d3e0f1"/></linearGradient><linearGradient id="blue" x1="81" y1="79" x2="175" y2="177" gradientUnits="userSpaceOnUse"><stop stop-color="#769cff"/><stop offset=".5" stop-color="#416aee"/><stop offset="1" stop-color="#2544ad"/></linearGradient><filter id="shadow" x="-30%" y="-30%" width="160%" height="170%" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="5" stdDeviation="4" flood-color="#10296a" flood-opacity=".15"/></filter></defs>
+    <g filter="url(#shadow)">
+      <path d="M42 49Q40 37 51 42L88 68Q128 53 168 68L205 42Q216 37 214 49L208 120Q215 149 191 176L147 211Q128 225 109 211L65 176Q41 149 48 120Z" fill="url(#silver)" stroke="#f7faff" stroke-opacity=".65" stroke-width="1"/>
+      <path d="M54 53 81 77 58 107Z" fill="url(#blue)"/>
+      <path d="m202 53-27 24 23 30Z" fill="url(#blue)"/>
+      <path d="M57 112Q86 117 108 144L128 161 148 144Q170 117 199 112Q208 151 179 176L142 206Q128 218 114 206L77 176Q48 151 57 112Z" fill="url(#pearl)"/>
+      <path d="M89 74Q128 60 167 74L153 118Q137 138 128 151Q119 138 103 118Z" fill="url(#pearl)"/>
+      <path d="M76 127Q92 116 111 126Q96 140 81 133Z" fill="url(#blue)"/>
+      <path d="M180 127Q164 116 145 126Q160 140 175 133Z" fill="url(#blue)"/>
+      <path d="M83 126Q93 122 103 126M173 126Q163 122 153 126" fill="none" stroke="#c5dbff" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M118 174Q128 170 138 174L131 183Q128 187 125 183Z" fill="#22345a"/>
+      <path d="M128 185v7M116 194q6 4 12-2 6 6 12 2" fill="none" stroke="#758cac" stroke-opacity=".65" stroke-width="2" stroke-linecap="round"/>
+      <path d="M45 49 50 116M90 70Q128 56 166 70" fill="none" stroke="#fff" stroke-width="1.4" stroke-opacity=".8"/>
+    </g></svg>

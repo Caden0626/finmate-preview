@@ -1,0 +1,69 @@
+:root { --ink:#202020; --muted:#858585; --blue:#202020; --edge:#0000000c; }
+body { background:#f2f2f2; }
+.design-board { max-width:1440px; padding:49px 50px 35px; }
+.board-header { margin-bottom:34px; gap:48px; }
+.board-intro { border-left-color:#dedede; }
+.board-intro h1 { font-size:28px; font-weight:500; }
+.board-intro > p:last-child { color:#888; }
+.eyebrow { color:#818181; font-size:10px; }
+.collection-note { color:#969696; font-size:9px; letter-spacing:1.3px; }
+.concept-grid { gap:38px; grid-template-columns:repeat(2,minmax(0,1fr)); max-width:750px; margin:auto; }
+.concept-card,.concept-card.selected { background:none; border:0; border-radius:0; box-shadow:none; }
+.concept-card-top { padding:12px 18px 0; }
+.concept-en { color:#999; letter-spacing:1.1px; font-size:9px; }
+.concept-number { color:#929292; }
+.hero-stage { height:263px; }
+.hero-stage::before { display:none; }
+.app-icon { width:194px; height:194px; background:#fff; border:0; border-radius:44px; box-shadow:none; }
+.concept-info { padding:0 18px; }
+.concept-info h2 { font-size:21px; font-weight:500; }
+.concept-type { color:#737373; font-size:10px; margin-top:10px; }
+.concept-description { color:#888; font-size:11px; line-height:1.8; min-height:42px; }
+.usage-preview { margin-left:18px; margin-right:18px; border-top-color:#dedede; }
+.usage-caption { color:#999; }
+.avatar-sample strong { color:#202020; }
+.avatar-sample small { color:#929292; }
+.avatar-sample small::before { background:#949494; }
+.nav-sample { background:#fff; border:0; border-radius:15px; }
+.nav-destination { color:#969696; }
+.nav-destination.active { color:#202020; }
+.nav-destination.active .glyph-wrap { background:#f1f1f1; }
+.nav-destination img { width:22px; height:22px; }
+.choose-button { width:calc(100% - 36px); margin-left:18px; margin-right:18px; border-top-color:#dedede; color:#818181; font-size:11px; }
+.choose-button span:last-child { color:#202020; }
+.selected .choose-button > span:first-child { color:#202020; }
+.selected .concept-number { color:#202020; }
+.board-footer { color:#999; }
+.context-preview { background:#ececec; border-top-color:#dedede; }
+.context-copy > p:not(.eyebrow):not(.preview-note) { color:#888; }
+.preview-tags span { border-color:#d7d7d7; color:#777; }
+.preview-downloads a { color:#202020; border-bottom-color:#d8d8d8; }
+.preview-note { color:#999; }
+.preview-phone { border-color:#ddd; background:#fafafa; box-shadow:0 20px 40px -25px #0000002b; }
+.phone-art > img { width:160px; height:160px; }
+.phone-eyebrow { color:#999; }
+.phone-welcome h3 em { color:#416aee; }
+.phone-prompts > div > span { color:#416aee; }
+.phone-composer i { background:#eee; color:#888; }
+.phone-indicator { background:#202020; }
+.home-screen-sample > p:last-child { color:#8d8d8d; }
+.home-screen-sample .app-icon { width:112px; height:112px; border-radius:27px; }
+@media (hover:hover) { .concept-card:hover { transform:none; } .choose-button:hover { color:#202020; } }
+@media (max-width:1100px) { .design-board { max-width:810px; padding:35px 26px; } .board-header { gap:25px; } .collection-note { display:none; } }
+@media (max-width:620px) {
+  .design-board { padding:26px 18px; }
+  .board-header { gap:24px; margin-bottom:20px; }
+  .board-intro h1 { font-size:23px; }
+  .concept-grid { gap:14px; }
+  .concept-card-top { padding:12px 4px 0; }
+  .concept-en { font-size:6px; letter-spacing:.6px; }
+  .hero-stage { height:164px; }
+  .app-icon { width:128px; height:128px; border-radius:29px; }
+  .concept-info { padding:0 4px; }
+  .concept-info h2 { font-size:18px; }
+  .concept-type { font-size:8px; }
+  .concept-description { font-size:10px; min-height:40px; }
+  .usage-preview { margin-left:4px; margin-right:4px; }
+  .choose-button { width:calc(100% - 8px); margin-left:4px; margin-right:4px; font-size:9px; }
+}
+@media (max-width:350px) { .concept-grid { grid-template-columns:1fr; } .hero-stage { height:230px; } .app-icon { width:178px; height:178px; border-radius:41px; } .concept-description { min-height:0; } }
